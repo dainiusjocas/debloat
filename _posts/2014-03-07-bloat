@@ -1,0 +1,73 @@
+---
+layout: post
+title: Bloat
+description: "what is exactly bloatware?"
+modified: 2014-03-05
+category: articles
+tags: bloat, bloatware
+image:
+  feature: so-simple-sample-image-1.jpg
+  credit: Michael Rose
+  creditlink: http://mademistakes.com
+comments: true
+share: true
+---
+
+To fight against the bloatware we need to define what it is. So, it the time for a fast literature review on the issue.
+
+Wikidictionary says that[^6]:
+
+> bloatware (uncountable)
+(computing) Software that is overpacked with features and therefore slow or unwieldy; software that is inefficiently designed and occupies an excessive amount of memory or disk space.
+
+Main idea is that software having too many features has many disadvantages such as being slow. Mainly problems for hardware.
+
+Webopedia defines bloatware as[^7]:
+
+> (blōt´wãr) (n.) jargon Software that has lots of features and requires considerable disk space and RAM. As the cost of RAM and disk storage has decreased, there has been a growing trend among software developers to disregard the size of applications. Some people refer to this trend as creeping featuritis. If creeping featuritis is the symptom, bloatware is the disease.
+
+This definition emphasizes that bloatware is the result of developers disregarding the size of the application. In my opinion, this carelessness is lack of attention devoted to the good software design. This might be caused by the lack knowledge (e.g. methodology) how to design software or inadequate development management.
+
+There is another term that is very related - software bloat.
+
+Wikipedia describes software bloat as[^5]:
+
+> Software bloat is a process whereby successive versions of a computer program become perceptibly slower, use more memory/diskspace or processing power, or have higher hardware requirements than the previous version whilst making only dubious user-perceptible improvements.
+
+The emphasis here is put on hardware related issues rather than complexity of development process.
+
+As it is described in the Jargon file:
+
+> bloatware: n.
+[common] Software that provides minimal functionality while requiring a disproportionate amount of diskspace and memory. Especially used for application and OS upgrades. This term is very common in the Windows/NT world. So is its cause.[^1]
+
+> software bloat: n.
+The results of second-system effect or creeping featuritis. Commonly cited examples include ls(1), X, BSD, and OS/2.[^2]
+
+There is also a related definition which deserves its space in this document:
+
+>creeping featurism: /kree�ping fee�chr�izm/, n.
+[common]
+1. Describes a systematic tendency to load more chrome and features onto systems at the expense of whatever elegance they may have possessed when originally designed. See also feeping creaturism. “You know, the main problem with BSD Unix has always been creeping featurism.”
+2. More generally, the tendency for anything complicated to become even more complicated because people keep saying “Gee, it would be even better if it had this feature too”. (See feature.) The result is usually a patchwork because it grew one ad-hoc step at a time, rather than being planned. Planning is a lot of work, but it's easy to add just one extra little feature to help someone ... and then another ... and another.... When creeping featurism gets out of hand, it's like a cancer. The GNU hello program, intended to illustrate GNU command-line switch and coding conventions, is also a wonderful parody of creeping featurism; the distribution changelog is particularly funny. Usually this term is used to describe computer programs, but it could also be said of the federal government, the IRS 1040 form, and new cars. A similar phenomenon sometimes afflicts conscious redesigns; see second-system effect. See also creeping elegance.[^3]
+
+
+But also there are not negative opinions about the bloatware. E.g. Joel Spolsky argues[^4] that bloatware is not such a bad thing that the jargon file claims to be. Mr. Spolsky says that price of having an application which has big executable is nearly not important because prices of hardware are dropping. Also, he claims that is worse to have a small application that misses one needed feature (e.g. word count in wordprocessor) than to have big tool that has many features that are not used.
+
+
+TO BE CONTINUED.
+
+
+[^1]: http://www.catb.org/jargon/html/B/bloatware.html
+
+[^2]: http://www.catb.org/jargon/html/S/software-bloat.html
+
+[^3]: http://www.catb.org/jargon/html/C/creeping-featurism.html
+
+[^4]: http://www.joelonsoftware.com/articles/fog0000000020.html
+
+[^5]: http://en.wikipedia.org/wiki/Software_bloat
+
+[^6]: http://en.wiktionary.org/wiki/bloatware
+
+[^7]: http://www.webopedia.com/TERM/B/bloatware.html
