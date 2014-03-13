@@ -22,7 +22,8 @@ The idea here is terribly simple: generate single purpose non-modifiable virtual
 The benefits of this technique are:
 
 * significant reduction in VM image sizes,
-* improved efficiency and security,
+* improved efficiency (no unneeded services),
+* improved security (reducing number of lines of code reduces the attack surface),
 * reduced operational costs.
 
 So far so good. It seems to me that this approach is exactly on the other end of the spectrum than bloated software. I'd call it an "ascetic software". In that sense unikernels are exactly a method to fight against bloated software.
